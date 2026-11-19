@@ -1,0 +1,25 @@
+# Entornos y secretos
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos y artefactos generados
+data/*
+!data/README.md
+chroma_db/
+chroma_cosmos/
+corpus_conocimiento/
+*.db
+*.zip
+neo4j/
+neo4j.tgz
+
+# SO / IDE
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,34 @@
+# Bases de datos
+sqlalchemy
+chromadb>=0.5.4
+neo4j
+
+# Recuperación y NLP
+sentence-transformers>=3.0.0
+rank-bm25
+tiktoken>=0.7.0
+transformers
+accelerate
+sentencepiece
+torch
+
+# Procesamiento de documentos
+pypdf>=4.2.0
+pdfplumber
+pandas
+numpy
+tqdm
+
+# LLM / agentes
+huggingface_hub
+openai
+langchain==0.2.17
+langchain-community==0.2.17
+
+# Herramientas externas del agente
+wikipedia
+duckduckgo-search==6.*
+requests
+
+# Notebook
+jupyter
