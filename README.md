@@ -1,11 +1,11 @@
-# Datos
+# Data
 
-Los datos del universo *Cosmos Nexus* fueron provistos por la cátedra y **no se incluyen en el repositorio**. Para ejecutar el notebook, ubicá estos archivos donde el notebook los espera (`/content/` en Colab):
+The *Cosmos Nexus* universe data was provided by the course staff and **is not included in the repository**. To run the notebook, place these files where the notebook expects them (`/content/` in Colab):
 
-| Archivo | Contenido | Se usa en |
+| File | Contents | Used in |
 |---|---|---|
-| `corpus_conocimiento.zip` | Documentos `.txt` / `.pdf` (sinopsis, biografías, crónicas) | Base vectorial (ChromaDB) |
-| `cosmos_nexus_db.db` | Base SQLite con películas, personajes, mundos y artefactos | Módulo SQL |
-| `relaciones_universo.csv` | Relaciones entre entidades (`entidad1`, `relacion`, `entidad2`) | Base de grafos (Neo4j) |
+| `corpus_conocimiento.zip` | `.txt` / `.pdf` documents (synopses, biographies, chronicles) | Vector database (ChromaDB) |
+| `cosmos_nexus_db.db` | SQLite database with movies, characters, worlds, and artifacts | SQL module |
+| `relaciones_universo.csv` | Entity relationships (`entidad1`, `relacion`, `entidad2`) | Graph database (Neo4j) |
 
-Esta carpeta está ignorada por Git (ver `.gitignore`) salvo este archivo.
+This folder is ignored by Git (see `.gitignore`) except for this file.
